@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap {
+    width: 1200px;
+    height: 1200px;
+    position: relative;
+    margin: 5% auto;
+}
+
+.circle {
+    width: 30%;
+	height: 30%;
+	background: red;
+	border-radius: 50%;
+    position: absolute;
+}
+
+.circle-top-right{
+    position: absolute;
+    left: 70%;
+}
+
+.circle-bottom-left{
+    position: absolute;
+    top: 70%;
+}
+
+.circle-bottom-right{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+}
+
+.big-square {
+    width: 70%;
+    height: 70%;
+    background-color: #1E90FF;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+}
+
+.small-square {
+    width: 30%;
+    height: 30%;
+    border-radius: 10%;
+    background-color: #FFD700;
+    position: absolute;
+    left: 35%;
+    top: 35%;
+}
+
+.circle-top-left:hover{
+    background-color: green;
+    z-index: 1;
+}
+
+.circle-top-right:hover{
+    background-color: rgb(27, 161, 150);
+    z-index: 1;
+}
+
+.circle-bottom-left:hover{
+    background-color: purple;
+    z-index: 1;
+}
+
+.circle-bottom-right:hover{
+    background-color: orange;
+    z-index: 1;
+}
+
+.big-square:hover {
+    background-color: pink;
+    z-index: 1;
+}
