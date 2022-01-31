@@ -19,17 +19,17 @@
     position: absolute;
 }
 
-.circle-top-right{
+.circle--top-right{
     position: absolute;
     left: 70%;
 }
 
-.circle-bottom-left{
+.circle--bottom-left{
     position: absolute;
     top: 70%;
 }
 
-.circle-bottom-right{
+.circle--bottom-right{
     position: absolute;
     left: 70%;
     top: 70%;
@@ -54,22 +54,22 @@
     top: 35%;
 }
 
-.circle-top-left:hover{
+.circle--top-left:hover{
     background-color: green;
     z-index: 1;
 }
 
-.circle-top-right:hover{
+.circle--top-right:hover{
     background-color: rgb(27, 161, 150);
     z-index: 1;
 }
 
-.circle-bottom-left:hover{
+.circle--bottom-left:hover{
     background-color: purple;
     z-index: 1;
 }
 
-.circle-bottom-right:hover{
+.circle--bottom-right:hover{
     background-color: orange;
     z-index: 1;
 }
